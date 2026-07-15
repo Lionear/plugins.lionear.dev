@@ -7,7 +7,7 @@
       "description": "First-party plugins for SQL Explorer, published by Lionear.",
       "publisher": "Lionear",
       "indexUrl": "https://plugins.lionear.dev/sql-explorer/index.json",
-      "homepage": "https://github.com/Lionear/sql-explorer-plugins"
+      "homepage": "https://github.com/Lionear/plugins.lionear.dev"
     }
   ]
 }
