@@ -18,6 +18,14 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/universal-backup-v1.0.0/universal-backup-1.0.0.zip",
           "sha256": "6508c496ae2929fe7f2acde429b85d678eeaf06f6c783203996d6d5cf43468c5",
           "size": 33751
+        },
+        {
+          "version": "1.0.1",
+          "minHostApiVersion": 2,
+          "maxHostApiVersion": 2,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/universal-backup-v1.0.1/universal-backup-1.0.1.zip",
+          "sha256": "ded38c12bd4abf42f5e6598d2f35ff96dbb05664b20a10aa97898a886a08c048",
+          "size": 33750
         }
       ]
     }
