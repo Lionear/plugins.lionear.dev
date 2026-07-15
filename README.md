@@ -14,6 +14,8 @@ CNAME                        # plugins.lionear.dev
 sql-explorer/
   discovery.json              # the fixed Discovery feed: registry of stores
   index.json                  # the "official" store's index: plugins + versions
+  assets/
+    icon.png                  # store icon shown for the "official" source
 ```
 
 `discovery.json` is a registry of *stores* — each entry just points at a
