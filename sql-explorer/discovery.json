@@ -3,8 +3,8 @@
   "stores": [
     {
       "id": "official",
-      "name": "Lionear Official",
-      "description": "First-party plugins for SQL Explorer, published by Lionear.",
+      "name": "SQL Explorer Plugin Store",
+      "description": "Official providers and tools for SQL Explorer",
       "publisher": "Lionear",
       "indexUrl": "https://plugins.lionear.dev/sql-explorer/index.json",
       "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/icon.png",
