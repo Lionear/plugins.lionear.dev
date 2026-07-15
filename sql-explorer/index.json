@@ -1,5 +1,26 @@
 {
   "schemaVersion": 1,
-  "plugins": [],
+  "plugins": [
+    {
+      "id": "universal-backup",
+      "type": "tool",
+      "name": "Universal Backup & Restore",
+      "description": "Streaming, datatype-correct backup & restore for any connected database. LOB-safe .lbak v2 format (GZip + AES-GCM), spools large objects to keep memory flat.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/SqlExplorer",
+      "iconUrl": null,
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minHostApiVersion": 2,
+          "maxHostApiVersion": 2,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/universal-backup-v1.0.0/universal-backup-1.0.0.zip",
+          "sha256": "6508c496ae2929fe7f2acde429b85d678eeaf06f6c783203996d6d5cf43468c5",
+          "size": 33751
+        }
+      ]
+    }
+  ],
   "bundles": []
 }
