@@ -40,6 +40,26 @@
           "size": 2437786
         }
       ]
+    },
+    {
+      "id": "redis",
+      "type": "provider",
+      "name": "Redis",
+      "description": "Connect to Redis and browse DB indices and keys (grouped by ':' prefix), run typed commands (GET/HGETALL/SET/LPUSH/ZRANGE/...), and edit Hash fields via the grid. A non-SQL provider built on the v23 host API.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/plugins/Providers.Redis",
+      "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/redis.png",
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minHostApiVersion": 23,
+          "maxHostApiVersion": 23,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/redis-v1.0.0/redis-1.0.0.zip",
+          "sha256": "1c756518dcb3e899ecdbd8579d41012f252a09c7f7ff82a70ba5dc75ce25f97d",
+          "size": 561427
+        }
+      ]
     }
   ],
   "bundles": []
