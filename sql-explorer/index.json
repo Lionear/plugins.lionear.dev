@@ -5,27 +5,19 @@
       "id": "universal-backup",
       "type": "tool",
       "name": "Universal Backup & Restore",
-      "description": "Streaming, datatype-correct backup & restore for any connected database. LOB-safe .lbak v2 format (GZip + AES-GCM), spools large objects to keep memory flat.",
+      "description": "Streaming, datatype-correct backup & restore for any connected database. Per-object schema/data selection, LOB-safe .lbak v3 format (GZip + AES-GCM), spools large objects to keep memory flat.",
       "author": "Lionear",
       "homepage": "https://github.com/Lionear/SqlExplorer",
       "iconUrl": null,
       "capabilities": [],
       "versions": [
         {
-          "version": "1.0.0",
+          "version": "0.1.0",
           "minHostApiVersion": 2,
           "maxHostApiVersion": 2,
-          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/universal-backup-v1.0.0/universal-backup-1.0.0.zip",
-          "sha256": "6508c496ae2929fe7f2acde429b85d678eeaf06f6c783203996d6d5cf43468c5",
-          "size": 33751
-        },
-        {
-          "version": "1.0.1",
-          "minHostApiVersion": 2,
-          "maxHostApiVersion": 2,
-          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/universal-backup-v1.0.1/universal-backup-1.0.1.zip",
-          "sha256": "ded38c12bd4abf42f5e6598d2f35ff96dbb05664b20a10aa97898a886a08c048",
-          "size": 33750
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/universal-backup-v0.1.0/universal-backup-0.1.0.zip",
+          "sha256": "2f61e14da3bb6fb469e8c85d90f84d54fc5aead1c52d217917e10ecc71f62db8",
+          "size": 55743
         }
       ]
     }
