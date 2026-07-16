@@ -85,6 +85,25 @@
           "size": 569425
         }
       ]
+    },
+    {
+      "id": "elasticsearch",
+      "type": "provider",
+      "name": "Elasticsearch",
+      "description": "Connect to Elasticsearch and browse indices, run Kibana Dev-Tools-style requests (GET index/_search { ... }, _cat, _count, _bulk), and edit documents in a hybrid grid (scalar fields as columns, nested objects as JSON cells) with non-transactional _bulk writeback. Cursor-pages past the 10k window via point-in-time + search_after. A non-SQL provider built on the v24 host API.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/plugins/Providers.Elasticsearch",
+      "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/elasticsearch.png",
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minHostApiVersion": 24,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/elasticsearch-v1.0.0/elasticsearch-1.0.0.zip",
+          "sha256": "901c4ac74b46f19ed609154e2517277395d13dd2f639e9b36a2af36c597412a9",
+          "size": 4938537
+        }
+      ]
     }
   ],
   "bundles": []
