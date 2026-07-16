@@ -66,6 +66,25 @@
           "size": 561427
         }
       ]
+    },
+    {
+      "id": "dragonflydb",
+      "type": "provider",
+      "name": "DragonflyDB",
+      "description": "Connect to DragonflyDB (a RESP-compatible Redis drop-in) and browse DB indices and keys (grouped by ':' prefix), run typed commands (GET/HGETALL/SET/LPUSH/ZRANGE/...), and edit Hash fields via the grid. A non-SQL provider built on the v23 host API.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/plugins/Providers.DragonflyDb",
+      "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/dragonflydb.png",
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minHostApiVersion": 23,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/dragonflydb-v1.0.0/dragonflydb-1.0.0.zip",
+          "sha256": "cd2a3fbb5f145a9f647b0a5dd8c1ba48e5cbf2638909c92dbb4433d3189e26d1",
+          "size": 569425
+        }
+      ]
     }
   ],
   "bundles": []
