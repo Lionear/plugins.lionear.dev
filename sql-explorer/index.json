@@ -20,6 +20,26 @@
           "size": 55743
         }
       ]
+    },
+    {
+      "id": "mongodb",
+      "type": "provider",
+      "name": "MongoDB",
+      "description": "Connect to MongoDB and browse databases and collections, run find/aggregate queries with a JSON filter box, sort and page results, and drop or truncate collections. A non-SQL provider built on the v20 host API.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/plugins/Providers.MongoDb",
+      "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/mongodb.png",
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minHostApiVersion": 20,
+          "maxHostApiVersion": 20,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mongodb-v1.0.0/mongodb-1.0.0.zip",
+          "sha256": "fc45f191bb1288ac6f7948487eba1383e08e1958f34be4d8fe11da87c40cc448",
+          "size": 2437786
+        }
+      ]
     }
   ],
   "bundles": []
