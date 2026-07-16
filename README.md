@@ -25,10 +25,3 @@ own `sql-explorer/index.json`. Sibling products (if any) would get their own
 
 `index.json` lists every published plugin with its available versions
 (download URL, sha256, size, host-API compatibility range).
-
-## Releasing a new plugin version
-
-Not documented in this repo — the release procedure lives in Rick's private
-notes (`Memory/Lionear/SQL Explorer/Plans/Plugin-Release-Procedure.md`),
-since this repo is just the published output, not a place for operating
-instructions.
