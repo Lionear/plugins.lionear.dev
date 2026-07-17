@@ -17,6 +17,13 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/dragonflydb-v1.0.0/dragonflydb-1.0.0.zip",
           "sha256": "cd2a3fbb5f145a9f647b0a5dd8c1ba48e5cbf2638909c92dbb4433d3189e26d1",
           "size": 569425
+        },
+        {
+          "version": "1.1.0",
+          "minHostApiVersion": 25,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/dragonflydb-v1.1.0/dragonflydb-1.1.0.zip",
+          "sha256": "b97dcf0721dfa6dcb9da906d28ecc3b744321b9340c20f0f93ac6ee0c5082984",
+          "size": 581437
         }
       ]
     },
@@ -36,6 +43,13 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/elasticsearch-v1.0.0/elasticsearch-1.0.0.zip",
           "sha256": "901c4ac74b46f19ed609154e2517277395d13dd2f639e9b36a2af36c597412a9",
           "size": 4938537
+        },
+        {
+          "version": "1.1.0",
+          "minHostApiVersion": 25,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/elasticsearch-v1.1.0/elasticsearch-1.1.0.zip",
+          "sha256": "9acf2da80c79bef863ffc555705a121eb38197ac4ab61bdab64ebcea9440e887",
+          "size": 4951541
         }
       ]
     },
@@ -62,6 +76,13 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mongodb-v1.0.1/mongodb-1.0.1.zip",
           "sha256": "0cbf7c63d6ea21f2e087393b761b237eb5813784ea70a6d494be8088823e70fb",
           "size": 2439529
+        },
+        {
+          "version": "1.1.0",
+          "minHostApiVersion": 25,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mongodb-v1.1.0/mongodb-1.1.0.zip",
+          "sha256": "1117f391ab19d8e00a4958897fbe40be3f555df12be03ca19e149181840c957b",
+          "size": 2452105
         }
       ]
     },
@@ -81,6 +102,13 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mysql-v0.1.0/mysql-0.1.0.zip",
           "sha256": "d3ddeaa87eecb85228ed62ab914a9767fe1891f3c9e56dbe7fce935ca0f3352b",
           "size": 488987
+        },
+        {
+          "version": "0.2.0",
+          "minHostApiVersion": 25,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mysql-v0.2.0/mysql-0.2.0.zip",
+          "sha256": "11bfa5b84c656b70a8428810854ba7e5caec6489b1fd40e3abbfa12079300374",
+          "size": 489200
         }
       ]
     },
@@ -100,6 +128,13 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/postgres-v0.1.0/postgres-0.1.0.zip",
           "sha256": "50c09687dca5e8335ea8c50b9db06895c07dab775e90f502e3ea0a65b0d0824d",
           "size": 663168
+        },
+        {
+          "version": "0.2.0",
+          "minHostApiVersion": 25,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/postgres-v0.2.0/postgres-0.2.0.zip",
+          "sha256": "ce745dbfa79120132fd2430994039c94ec4da803eda9cc1428a614e0181d9adb",
+          "size": 663300
         }
       ]
     },
@@ -120,6 +155,13 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/redis-v1.0.0/redis-1.0.0.zip",
           "sha256": "1c756518dcb3e899ecdbd8579d41012f252a09c7f7ff82a70ba5dc75ce25f97d",
           "size": 561427
+        },
+        {
+          "version": "1.1.0",
+          "minHostApiVersion": 25,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/redis-v1.1.0/redis-1.1.0.zip",
+          "sha256": "ca709fb67b163f9cb8d1f959505678cefd424057a9d638b66a8f1ea585bc7332",
+          "size": 573041
         }
       ]
     },
@@ -172,6 +214,13 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/sqlserver-v0.2.1/sqlserver-0.2.1.zip",
           "sha256": "16e54d0b4e8efd3317fad7da5cde0db30eb512f5a52f9936258a049dce7ab103",
           "size": 5012430
+        },
+        {
+          "version": "0.3.0",
+          "minHostApiVersion": 25,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/sqlserver-v0.3.0/sqlserver-0.3.0.zip",
+          "sha256": "58e22a1722721a757c08ab2d5092aa34bd67b379f47de404c9129ae05c1e2e6a",
+          "size": 5008803
         }
       ]
     },
@@ -210,6 +259,13 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/sqlite-v0.1.0/sqlite-0.1.0.zip",
           "sha256": "5cf6be2c00aea41416a9fdf8aa2a18ee366ad595c810572f07cb44c5134263e3",
           "size": 34456336
+        },
+        {
+          "version": "0.2.0",
+          "minHostApiVersion": 25,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/sqlite-v0.2.0/sqlite-0.2.0.zip",
+          "sha256": "e19059f51c5834147dc726c5ea03f9ce4082bcb6fb147ed9b8ec73d190c162f9",
+          "size": 34451373
         }
       ]
     },
