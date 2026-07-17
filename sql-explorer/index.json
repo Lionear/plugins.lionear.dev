@@ -125,7 +125,7 @@
     },
     {
       "id": "sql-explorer-mcp",
-      "type": "tool",
+      "type": "mcp",
       "name": "SQL Explorer MCP Server",
       "description": "First-party MCP tool provider that exposes core query/browse tools over the Model Context Protocol so AI assistants (Claude, IDEs) can talk to your opted-in connections. Fail-closed opt-in per connection.",
       "author": "Lionear",
