@@ -31,7 +31,7 @@
       "id": "elasticsearch",
       "type": "provider",
       "name": "Elasticsearch",
-      "description": "Connect to Elasticsearch and browse indices, run Kibana Dev-Tools-style requests (GET index/_search { ... }, _cat, _count, _bulk), and edit documents in a hybrid grid (scalar fields as columns, nested objects as JSON cells) with non-transactional _bulk writeback. Cursor-pages past the 10k window via point-in-time + search_after. A non-SQL provider built on the v24 host API.",
+      "description": "Connect to Elasticsearch and browse indices, run Kibana Dev-Tools-style requests (GET index/_search { ... }, _cat, _count, _bulk), and edit documents in a hybrid grid (scalar fields as columns, nested objects as JSON cells) with non-transactional _bulk writeback. Cursor-pages past the 10k window via point-in-time + search_after.",
       "author": "Lionear",
       "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/plugins/Providers.Elasticsearch",
       "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/elasticsearch.png",
@@ -50,6 +50,13 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/elasticsearch-v1.1.0/elasticsearch-1.1.0.zip",
           "sha256": "9acf2da80c79bef863ffc555705a121eb38197ac4ab61bdab64ebcea9440e887",
           "size": 4951541
+        },
+        {
+          "version": "1.2.0",
+          "minHostApiVersion": 25,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/elasticsearch-v1.2.0/elasticsearch-1.2.0.zip",
+          "sha256": "f29a8b0fd035b55ae118f94b0cbee5507e2358faefc56b72bef8cdaa84b6bd61",
+          "size": 4948271
         }
       ]
     },
