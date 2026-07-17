@@ -2,72 +2,6 @@
   "schemaVersion": 1,
   "plugins": [
     {
-      "id": "universal-backup",
-      "type": "tool",
-      "name": "Universal Backup & Restore",
-      "description": "Streaming, datatype-correct backup & restore for any connected database. Per-object schema/data selection, LOB-safe .lbak v3 format (GZip + AES-GCM), spools large objects to keep memory flat.",
-      "author": "Lionear",
-      "homepage": "https://github.com/Lionear/SqlExplorer",
-      "iconUrl": null,
-      "capabilities": [],
-      "versions": [
-        {
-          "version": "0.1.0",
-          "minHostApiVersion": 2,
-          "maxHostApiVersion": 2,
-          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/universal-backup-v0.1.0/universal-backup-0.1.0.zip",
-          "sha256": "2f61e14da3bb6fb469e8c85d90f84d54fc5aead1c52d217917e10ecc71f62db8",
-          "size": 55743
-        }
-      ]
-    },
-    {
-      "id": "mongodb",
-      "type": "provider",
-      "name": "MongoDB",
-      "description": "Connect to MongoDB and browse databases and collections, run find/aggregate queries with a JSON filter box, sort and page results, and drop or truncate collections. A non-SQL provider built on the v23 host API.",
-      "author": "Lionear",
-      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/plugins/Providers.MongoDb",
-      "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/mongodb.png",
-      "capabilities": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "minHostApiVersion": 20,
-          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mongodb-v1.0.0/mongodb-1.0.0.zip",
-          "sha256": "fc45f191bb1288ac6f7948487eba1383e08e1958f34be4d8fe11da87c40cc448",
-          "size": 2437786
-        },
-        {
-          "version": "1.0.1",
-          "minHostApiVersion": 23,
-          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mongodb-v1.0.1/mongodb-1.0.1.zip",
-          "sha256": "0cbf7c63d6ea21f2e087393b761b237eb5813784ea70a6d494be8088823e70fb",
-          "size": 2439529
-        }
-      ]
-    },
-    {
-      "id": "redis",
-      "type": "provider",
-      "name": "Redis",
-      "description": "Connect to Redis and browse DB indices and keys (grouped by ':' prefix), run typed commands (GET/HGETALL/SET/LPUSH/ZRANGE/...), and edit Hash fields via the grid. A non-SQL provider built on the v23 host API.",
-      "author": "Lionear",
-      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/plugins/Providers.Redis",
-      "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/redis.png",
-      "capabilities": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "minHostApiVersion": 23,
-          "maxHostApiVersion": 23,
-          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/redis-v1.0.0/redis-1.0.0.zip",
-          "sha256": "1c756518dcb3e899ecdbd8579d41012f252a09c7f7ff82a70ba5dc75ce25f97d",
-          "size": 561427
-        }
-      ]
-    },
-    {
       "id": "dragonflydb",
       "type": "provider",
       "name": "DragonflyDB",
@@ -102,6 +36,193 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/elasticsearch-v1.0.0/elasticsearch-1.0.0.zip",
           "sha256": "901c4ac74b46f19ed609154e2517277395d13dd2f639e9b36a2af36c597412a9",
           "size": 4938537
+        }
+      ]
+    },
+    {
+      "id": "mongodb",
+      "type": "provider",
+      "name": "MongoDB",
+      "description": "Connect to MongoDB and browse databases and collections, run find/aggregate queries with a JSON filter box, sort and page results, and drop or truncate collections. A non-SQL provider built on the v23 host API.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/plugins/Providers.MongoDb",
+      "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/mongodb.png",
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minHostApiVersion": 20,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mongodb-v1.0.0/mongodb-1.0.0.zip",
+          "sha256": "fc45f191bb1288ac6f7948487eba1383e08e1958f34be4d8fe11da87c40cc448",
+          "size": 2437786
+        },
+        {
+          "version": "1.0.1",
+          "minHostApiVersion": 23,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mongodb-v1.0.1/mongodb-1.0.1.zip",
+          "sha256": "0cbf7c63d6ea21f2e087393b761b237eb5813784ea70a6d494be8088823e70fb",
+          "size": 2439529
+        }
+      ]
+    },
+    {
+      "id": "mysql",
+      "type": "provider",
+      "name": "MySQL",
+      "description": "Connect to MySQL/MariaDB: browse databases/tables/views/routines, run SQL with paging, alter/drop/create objects, and manage users. Built-in provider on the v23 host API.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/src/SqlExplorer.Providers.MySql",
+      "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/mysql.png",
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "minHostApiVersion": 23,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mysql-v0.1.0/mysql-0.1.0.zip",
+          "sha256": "d3ddeaa87eecb85228ed62ab914a9767fe1891f3c9e56dbe7fce935ca0f3352b",
+          "size": 488987
+        }
+      ]
+    },
+    {
+      "id": "postgres",
+      "type": "provider",
+      "name": "PostgreSQL",
+      "description": "Connect to PostgreSQL: browse databases/schemas/tables/views/routines/triggers, run SQL with paging, alter/drop/create objects, and manage users. Built-in provider on the v23 host API.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/src/SqlExplorer.Providers.Postgres",
+      "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/postgres.png",
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "minHostApiVersion": 23,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/postgres-v0.1.0/postgres-0.1.0.zip",
+          "sha256": "50c09687dca5e8335ea8c50b9db06895c07dab775e90f502e3ea0a65b0d0824d",
+          "size": 663168
+        }
+      ]
+    },
+    {
+      "id": "redis",
+      "type": "provider",
+      "name": "Redis",
+      "description": "Connect to Redis and browse DB indices and keys (grouped by ':' prefix), run typed commands (GET/HGETALL/SET/LPUSH/ZRANGE/...), and edit Hash fields via the grid. A non-SQL provider built on the v23 host API.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/plugins/Providers.Redis",
+      "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/redis.png",
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minHostApiVersion": 23,
+          "maxHostApiVersion": 23,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/redis-v1.0.0/redis-1.0.0.zip",
+          "sha256": "1c756518dcb3e899ecdbd8579d41012f252a09c7f7ff82a70ba5dc75ce25f97d",
+          "size": 561427
+        }
+      ]
+    },
+    {
+      "id": "sql-explorer-mcp",
+      "type": "tool",
+      "name": "SQL Explorer MCP Server",
+      "description": "First-party MCP tool provider that exposes core query/browse tools over the Model Context Protocol so AI assistants (Claude, IDEs) can talk to your opted-in connections. Fail-closed opt-in per connection.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/src/SqlExplorer.Mcp.Server",
+      "iconUrl": null,
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "minHostApiVersion": 1,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/sql-explorer-mcp-v0.1.0/sql-explorer-mcp-0.1.0.zip",
+          "sha256": "bad498e42c6b8c9e33e69d54bb766e3a96883447e64fcc53188f354644b98fdb",
+          "size": 15246
+        }
+      ]
+    },
+    {
+      "id": "sqlserver",
+      "type": "provider",
+      "name": "SQL Server",
+      "description": "Connect to Microsoft SQL Server: browse databases/schemas/tables/views, run T-SQL with column-aware paging, alter/drop/create objects, manage server-level logins with a Route-B properties view, and run the schema-security users/roles UI. Built-in provider on the v23 host API.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/src/SqlExplorer.Providers.MsSql",
+      "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/sqlserver.png",
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "minHostApiVersion": 23,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/sqlserver-v0.1.0/sqlserver-0.1.0.zip",
+          "sha256": "8624a114389f1fe757c91f3f747ec6e78ede735bd1aa91bfb5285365096151c0",
+          "size": 4985685
+        },
+        {
+          "version": "0.2.0",
+          "minHostApiVersion": 23,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/sqlserver-v0.2.0/sqlserver-0.2.0.zip",
+          "sha256": "64cd066df7dbf7244ebe1d85b3fbefa0a039e5c771c6e8dece3c820d863b5e56",
+          "size": 4993265
+        }
+      ]
+    },
+    {
+      "id": "mssql-admin",
+      "type": "tool",
+      "name": "SQL Server Admin Tools",
+      "description": "SQL Server-specific admin dialogs (bacpac export, database create/attach helpers). Built-in tool plugin.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/src/SqlExplorer.Tools.MsSqlAdmin",
+      "iconUrl": null,
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "minHostApiVersion": 2,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mssql-admin-v0.1.0/mssql-admin-0.1.0.zip",
+          "sha256": "3aa8cbc91858cc9f692e4c8aabd0668802e04f568b5fcb70966e3a0d48506832",
+          "size": 25479
+        }
+      ]
+    },
+    {
+      "id": "sqlite",
+      "type": "provider",
+      "name": "SQLite",
+      "description": "Connect to SQLite database files: browse tables/views/indexes/triggers, run SQL, alter/drop/create objects. Built-in provider on the v23 host API.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/src/SqlExplorer.Providers.Sqlite",
+      "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/sqlite.png",
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "minHostApiVersion": 23,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/sqlite-v0.1.0/sqlite-0.1.0.zip",
+          "sha256": "5cf6be2c00aea41416a9fdf8aa2a18ee366ad595c810572f07cb44c5134263e3",
+          "size": 34456336
+        }
+      ]
+    },
+    {
+      "id": "universal-backup",
+      "type": "tool",
+      "name": "Universal Backup & Restore",
+      "description": "Streaming, datatype-correct backup & restore for any connected database. Per-object schema/data selection, LOB-safe .lbak v3 format (GZip + AES-GCM), spools large objects to keep memory flat.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/SqlExplorer",
+      "iconUrl": null,
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "minHostApiVersion": 2,
+          "maxHostApiVersion": 2,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/universal-backup-v0.1.0/universal-backup-0.1.0.zip",
+          "sha256": "2f61e14da3bb6fb469e8c85d90f84d54fc5aead1c52d217917e10ecc71f62db8",
+          "size": 55743
         }
       ]
     }
