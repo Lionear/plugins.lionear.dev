@@ -179,7 +179,7 @@
       "description": "First-party MCP tool provider that exposes core query/browse tools over the Model Context Protocol so AI assistants (Claude, IDEs) can talk to your opted-in connections. Fail-closed opt-in per connection.",
       "author": "Lionear",
       "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/src/SqlExplorer.Mcp.Server",
-      "iconUrl": null,
+      "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/sql-explorer-mcp.png",
       "capabilities": [],
       "versions": [
         {
@@ -188,6 +188,14 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/sql-explorer-mcp-v0.1.0/sql-explorer-mcp-0.1.0.zip",
           "sha256": "bad498e42c6b8c9e33e69d54bb766e3a96883447e64fcc53188f354644b98fdb",
           "size": 15246
+        },
+        {
+          "version": "0.1.1",
+          "minHostApiVersion": 1,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/sql-explorer-mcp-v0.1.1/sql-explorer-mcp-0.1.1.zip",
+          "sha256": "b8d698744399872c942a86176579874b41eef19702bf11a79a18ddcd672c4c1b",
+          "size": 38801,
+          "notes": "Added a plugin icon, shown in the store and the installed-plugins list."
         }
       ]
     },
