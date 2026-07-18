@@ -228,6 +228,13 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/sqlserver-v0.3.0/sqlserver-0.3.0.zip",
           "sha256": "58e22a1722721a757c08ab2d5092aa34bd67b379f47de404c9129ae05c1e2e6a",
           "size": 5008803
+        },
+        {
+          "version": "0.4.0",
+          "minHostApiVersion": 26,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/sqlserver-v0.4.0/sqlserver-0.4.0.zip",
+          "sha256": "9e67e773cfb42fafafb55105525a4acd69e34282924a1e7eb2e769ff48267531",
+          "size": 7195264
         }
       ]
     },
