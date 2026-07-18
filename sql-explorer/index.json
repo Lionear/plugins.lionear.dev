@@ -311,6 +311,26 @@
           "size": 55743
         }
       ]
+    },
+    {
+      "id": "mssql-bacpac",
+      "type": "tool",
+      "name": "SQL Server BACPAC/DACPAC",
+      "description": "Export & import SQL Server databases as BACPAC (schema + data) and DACPAC (schema-only) — Export, Import, Extract and Publish, powered by DacFx in-process.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/plugins/Tools.MsSqlBacpac",
+      "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/mssql-bacpac.png",
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "minHostApiVersion": 2,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mssql-bacpac-v0.1.0/mssql-bacpac-0.1.0.zip",
+          "sha256": "ddbf07babc9f8e2b48dadccd9316bef066e2d74c3509aa0fbaa227a4e2921b29",
+          "size": 8698781,
+          "notes": "First release. Four Data-tier Application tools for SQL Server: Export/Import BACPAC and Extract/Publish DACPAC, powered by DacFx in-process."
+        }
+      ]
     }
   ],
   "bundles": []
