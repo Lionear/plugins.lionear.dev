@@ -234,7 +234,8 @@
           "minHostApiVersion": 26,
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/sqlserver-v0.4.0/sqlserver-0.4.0.zip",
           "sha256": "9e67e773cfb42fafafb55105525a4acd69e34282924a1e7eb2e769ff48267531",
-          "size": 7195264
+          "size": 7195264,
+          "notes": "Dedicated T-SQL formatter using Microsoft's official ScriptDom parser, replacing the generic SQL formatter for SQL Server connections."
         }
       ]
     },
