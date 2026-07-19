@@ -331,6 +331,33 @@
           "notes": "First release. Four Data-tier Application tools for SQL Server: Export/Import BACPAC and Extract/Publish DACPAC, powered by DacFx in-process."
         }
       ]
+    },
+    {
+      "id": "local-containers",
+      "type": "extension",
+      "name": "Local Containers (Docker)",
+      "description": "Spin up and manage local Docker database containers without leaving SQL Explorer — an engine-first create wizard, auto-added managed connections, and a live Containers panel with status, logs and Start/Stop/Remove.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/SqlExplorer/tree/develop/plugins/Backends.Docker",
+      "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/local-containers.png",
+      "capabilities": [
+        "storage",
+        "connections",
+        "panel",
+        "process",
+        "menu",
+        "background"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "minHostApiVersion": 3,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/local-containers-v0.1.0/local-containers-0.1.0.zip",
+          "sha256": "ae37480e023f59d7cddb77b204d2afc0958b72a11640f980261cdf149609cd98",
+          "size": 56672,
+          "notes": "First release: create and manage local Docker database containers — auto-added managed connections, live status polling, logs, and lifecycle actions."
+        }
+      ]
     }
   ],
   "bundles": []
