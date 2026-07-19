@@ -338,7 +338,7 @@
       "name": "Local Containers (Docker)",
       "description": "Spin up and manage local Docker database containers without leaving SQL Explorer — an engine-first create wizard, auto-added managed connections, and a live Containers panel with status, logs and Start/Stop/Remove.",
       "author": "Lionear",
-      "homepage": "https://github.com/Lionear/SqlExplorer/tree/develop/plugins/Backends.Docker",
+      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/plugins/Backends.Docker",
       "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/local-containers.png",
       "capabilities": [
         "storage",
