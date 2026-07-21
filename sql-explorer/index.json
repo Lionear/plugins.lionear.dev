@@ -24,6 +24,14 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/dragonflydb-v1.1.0/dragonflydb-1.1.0.zip",
           "sha256": "b97dcf0721dfa6dcb9da906d28ecc3b744321b9340c20f0f93ac6ee0c5082984",
           "size": 581437
+        },
+        {
+          "version": "1.2.0",
+          "minHostApiVersion": 27,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/dragonflydb-v1.2.0/dragonflydb-1.2.0.zip",
+          "sha256": "e5691eb64501b3f78a21ac89cb7c8dfdaad44a767ecd9cd7dfec5c10e7e6ac30",
+          "size": 581871,
+          "notes": "Adds a one-click container recipe for spinning up a local DragonflyDB. Rebuilt against host API 27."
         }
       ]
     },
@@ -57,6 +65,14 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/elasticsearch-v1.2.0/elasticsearch-1.2.0.zip",
           "sha256": "f29a8b0fd035b55ae118f94b0cbee5507e2358faefc56b72bef8cdaa84b6bd61",
           "size": 4948271
+        },
+        {
+          "version": "1.3.0",
+          "minHostApiVersion": 27,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/elasticsearch-v1.3.0/elasticsearch-1.3.0.zip",
+          "sha256": "81134e79f7fe843f3d2c3f6f82f8658fa40234af81c01bfd65b7e0698c2c33b1",
+          "size": 4964468,
+          "notes": "Adds a one-click container recipe for a local Elasticsearch. Rebuilt against host API 27."
         }
       ]
     },
@@ -90,6 +106,14 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mongodb-v1.1.0/mongodb-1.1.0.zip",
           "sha256": "1117f391ab19d8e00a4958897fbe40be3f555df12be03ca19e149181840c957b",
           "size": 2452105
+        },
+        {
+          "version": "1.2.0",
+          "minHostApiVersion": 27,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mongodb-v1.2.0/mongodb-1.2.0.zip",
+          "sha256": "86be2fc8b4d286b1dc9ae02d4feadf4b92d701b005349a8385ae06bcb120a260",
+          "size": 2452621,
+          "notes": "Adds a one-click container recipe for a local MongoDB. Rebuilt against host API 27."
         }
       ]
     },
@@ -116,6 +140,14 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mysql-v0.2.0/mysql-0.2.0.zip",
           "sha256": "11bfa5b84c656b70a8428810854ba7e5caec6489b1fd40e3abbfa12079300374",
           "size": 489200
+        },
+        {
+          "version": "0.3.0",
+          "minHostApiVersion": 27,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mysql-v0.3.0/mysql-0.3.0.zip",
+          "sha256": "78723b341c623dc3e679db2920a1b16b124bb038fc30dc4757748ee3e72fa1cd",
+          "size": 490936,
+          "notes": "Adds a MySQL container recipe and per-dialect function autocompletion. Rebuilt against host API 27."
         }
       ]
     },
@@ -142,6 +174,14 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/postgres-v0.2.0/postgres-0.2.0.zip",
           "sha256": "ce745dbfa79120132fd2430994039c94ec4da803eda9cc1428a614e0181d9adb",
           "size": 663300
+        },
+        {
+          "version": "0.3.0",
+          "minHostApiVersion": 27,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/postgres-v0.3.0/postgres-0.3.0.zip",
+          "sha256": "8a176525aeea862c81ffdf1e0734555b3b188e1b8be2fdb09ba396b4a33e0276",
+          "size": 665418,
+          "notes": "Adds a PostgreSQL container recipe and per-dialect function autocompletion. Rebuilt against host API 27."
         }
       ]
     },
@@ -169,6 +209,14 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/redis-v1.1.0/redis-1.1.0.zip",
           "sha256": "ca709fb67b163f9cb8d1f959505678cefd424057a9d638b66a8f1ea585bc7332",
           "size": 573041
+        },
+        {
+          "version": "1.2.0",
+          "minHostApiVersion": 27,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/redis-v1.2.0/redis-1.2.0.zip",
+          "sha256": "5b6b2bc837d975a31b607391ed7ab71c47bcea8a3a14ab77d41e2f556c7fa211",
+          "size": 573495,
+          "notes": "Adds a one-click container recipe for a local Redis. Rebuilt against host API 27."
         }
       ]
     },
@@ -244,6 +292,14 @@
           "sha256": "9e67e773cfb42fafafb55105525a4acd69e34282924a1e7eb2e769ff48267531",
           "size": 7195264,
           "notes": "Dedicated T-SQL formatter using Microsoft's official ScriptDom parser, replacing the generic SQL formatter for SQL Server connections."
+        },
+        {
+          "version": "0.5.0",
+          "minHostApiVersion": 27,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/sqlserver-v0.5.0/sqlserver-0.5.0.zip",
+          "sha256": "7ffe4e7079eb534e4509f3db3e9522d1692cc05c269e1698ccfa1f45e1fe70df",
+          "size": 7192563,
+          "notes": "Adds a SQL Server container recipe, per-dialect function autocompletion, and paged query results. Rebuilt against host API 27."
         }
       ]
     },
@@ -289,6 +345,14 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/sqlite-v0.2.0/sqlite-0.2.0.zip",
           "sha256": "e19059f51c5834147dc726c5ea03f9ce4082bcb6fb147ed9b8ec73d190c162f9",
           "size": 34451373
+        },
+        {
+          "version": "0.3.0",
+          "minHostApiVersion": 27,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/sqlite-v0.3.0/sqlite-0.3.0.zip",
+          "sha256": "42538608fe77c86a1b88196efcf85c1ac71d29e463c3467d00d150ebadc14489",
+          "size": 34452815,
+          "notes": "Adds per-dialect function autocompletion. Rebuilt against host API 27."
         }
       ]
     },
