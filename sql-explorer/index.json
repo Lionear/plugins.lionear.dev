@@ -420,6 +420,34 @@
           "sha256": "ae37480e023f59d7cddb77b204d2afc0958b72a11640f980261cdf149609cd98",
           "size": 56672,
           "notes": "First release: create and manage local Docker database containers — auto-added managed connections, live status polling, logs, and lifecycle actions."
+        },
+        {
+          "version": "0.3.0",
+          "minHostApiVersion": 4,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/local-containers-v0.3.0/local-containers-0.3.0.zip",
+          "sha256": "9081f224fe9ec21c2a75abb59644434dd47b5d56a2bca9429fe1b37d5990e1ba",
+          "size": 53165,
+          "notes": "Container engines are now provided by the database plugins themselves (provider-declared recipes), created containers get ownership labels, and the icon set is shared with the host. Requires host API 4."
+        }
+      ]
+    },
+    {
+      "id": "schema-diff",
+      "type": "tool",
+      "name": "Schema Diff",
+      "description": "Compare the schema of your open database against another connection and database, then generate a dialect-correct ALTER migration script that opens in a new query tab. Read-only — it never runs DDL itself. Built-in tool plugin.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/src/SqlExplorer.Tools.SchemaDiff",
+      "iconUrl": null,
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "minHostApiVersion": 4,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/schema-diff-v0.1.0/schema-diff-0.1.0.zip",
+          "sha256": "e57e0be11209c24d84e0cbcc7751430470e8581f8a22e72399cf3ef0104e559f",
+          "size": 31962,
+          "notes": "First release: compare two databases and generate an ALTER migration script."
         }
       ]
     }
