@@ -448,6 +448,34 @@
           "sha256": "e57e0be11209c24d84e0cbcc7751430470e8581f8a22e72399cf3ef0104e559f",
           "size": 31962,
           "notes": "First release: compare two databases and generate an ALTER migration script."
+        },
+        {
+          "version": "0.3.0",
+          "minHostApiVersion": 4,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/schema-diff-v0.3.0/schema-diff-0.3.0.zip",
+          "sha256": "7a15526a4d05af64ff2618ff084ba3ed470563114ac2c88a45ed00cf77353d0c",
+          "size": 40738,
+          "notes": "Secondary indexes and SQLite support, plus fixes found by round-trip verification against live engines: auto-numbering survives a table recreate, engine-named constraints no longer diff as drop-and-recreate, and varchar(max) is no longer read as varchar(1)."
+        }
+      ]
+    },
+    {
+      "id": "copy-table",
+      "type": "tool",
+      "name": "Copy Table",
+      "description": "Copy a table to another connection and database: structure + data, structure only or data only, all rows or the first N, optionally keeping identity/sequence values and bringing the table's indexes and foreign keys along. Run the copy with a live checklist, or open it as a script on the target to review the SQL first. Postgres, MySQL, SQL Server and SQLite, with source and target on the same engine.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/plugins/Tools.CopyTable",
+      "iconUrl": null,
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "0.2.0",
+          "minHostApiVersion": 5,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/copy-table-v0.2.0/copy-table-0.2.0.zip",
+          "sha256": "964216d40fe3cdb3367068c8ca1a5bb8f8f79a107f767059d5ea1d52e6298da2",
+          "size": 58051,
+          "notes": "First release: copy a table to another connection and database, run or as a script, with indexes and foreign keys optional."
         }
       ]
     }
