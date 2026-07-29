@@ -478,6 +478,26 @@
           "notes": "First release: copy a table to another connection and database, run or as a script, with indexes and foreign keys optional."
         }
       ]
+    },
+    {
+      "id": "clickhouse",
+      "type": "provider",
+      "name": "ClickHouse",
+      "description": "Connect to ClickHouse over its HTTP interface and browse databases, tables, views, columns and data-skipping indexes with on-disk sizes and row counts. Run queries and multi-statement scripts (sent one request each, since the server rejects a batched body), EXPLAIN, SHOW CREATE definitions, DDL Create for databases and tables (ENGINE = MergeTree with an ORDER BY), the Activity Monitor over system.processes with KILL QUERY, and user/role management. Result grids are read-only: the protocol carries no primary-key metadata, and ClickHouse mutates rows through asynchronous ALTER TABLE UPDATE.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/DataTray/tree/main/plugins/Providers.ClickHouse",
+      "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/clickhouse.png",
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minHostApiVersion": 27,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/clickhouse-v1.0.0/clickhouse-1.0.0.zip",
+          "sha256": "d46f2a2d267bcd5811f8b0b25ac96b1c061c7e43790ac35fb84cd5f811b68450",
+          "size": 734109,
+          "notes": "First release: ClickHouse as a provider plugin, with a container recipe for spinning up a local server."
+        }
+      ]
     }
   ],
   "bundles": []
