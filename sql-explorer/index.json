@@ -498,6 +498,26 @@
           "notes": "First release: ClickHouse as a provider plugin, with a container recipe for spinning up a local server."
         }
       ]
+    },
+    {
+      "id": "duckdb",
+      "type": "provider",
+      "name": "DuckDB",
+      "description": "Open a DuckDB file — or an in-memory scratchpad — and browse schemas, tables, views, sequences, columns and indexes with row and column counts. Query files directly the way DuckDB is meant to be used: SELECT * FROM 'events.parquet', read_csv_auto('data.csv'), read_json_auto(...), with no database file needed at all. Scripts, EXPLAIN, View Definition and DDL Create for schemas and tables included. A plain table browse stays editable when the table has a primary key; a join, aggregate, view or file comes back read-only. Bundles the DuckDB engine, so the download is large.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/DataTray/tree/main/plugins/Providers.DuckDb",
+      "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/duckdb.png",
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "minHostApiVersion": 27,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/duckdb-v1.0.0/duckdb-1.0.0.zip",
+          "sha256": "6dc3cb8e8cc8fc5d8f68d7a41fcc0d2434df1327862c369d44c044ad56088a53",
+          "size": 85828678,
+          "notes": "First release: DuckDB as a provider plugin, including querying Parquet/CSV/JSON files directly. Ships the DuckDB engine for every platform DataTray runs on, hence the 82 MB download."
+        }
+      ]
     }
   ],
   "bundles": []
