@@ -347,6 +347,26 @@
           "notes": "First release: DuckDB as a provider plugin, including querying Parquet/CSV/JSON files directly. Ships the DuckDB engine for every platform DataTray runs on, hence the 82 MB download."
         }
       ]
+    },
+    {
+      "id": "generate-scripts",
+      "type": "tool",
+      "name": "Generate Scripts",
+      "description": "Script a whole database as CREATE statements \u2014 every table, optionally with its indexes and foreign keys, in an order that can be run back. The script opens in a query tab or is written to a file; nothing in the database is touched. Postgres, MySQL, SQL Server and SQLite.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/DataTray/tree/main/plugins/Tools.GenerateScripts",
+      "iconUrl": null,
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "minHostApiVersion": 4,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/generate-scripts-v0.1.0/generate-scripts-0.1.0.zip",
+          "sha256": "fb5681bf35326fb4e5c3ba0191ca5466f2604c735ecbb7c953b6f9526ed2ea8e",
+          "size": 51032,
+          "notes": "First release. Announced in 0.5.0 but never published, so the tool has been unreachable until now."
+        }
+      ]
     }
   ],
   "bundles": []

@@ -1,0 +1,52 @@
+name: Verify store
+
+# Checks that every plugin the live store advertises is actually installable (SE-224).
+#
+# Runs against the deployed index over HTTP, not the files in this checkout, because what matters is
+# what a user's app fetches — an index that failed to deploy, or a release asset that was deleted or
+# replaced, is as broken as bad JSON and invisible from the repo.
+#
+# The schedule is the point. The rename that broke all fifteen plugins landed in the *app* repo, so no
+# push here would ever have triggered a check; it took four days and a user report to notice.
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'sql-explorer/index.json'
+      - 'tools/verify-store.py'
+      - '.github/workflows/verify-store.yml'
+  workflow_dispatch:
+    inputs:
+      all-versions:
+        description: 'Check every published version, not only the newest per plugin'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Every advertised plugin is installable
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # On a push the Pages deploy is still in flight, so the freshly committed index.json is not yet
+      # the one being served. Wait rather than race it — a false failure here trains people to ignore
+      # this check, which is the one failure mode it cannot survive.
+      - name: Let GitHub Pages catch up
+        if: github.event_name == 'push'
+        run: sleep 90
+
+      - name: Verify
+        run: |
+          python3 tools/verify-store.py \
+            ${{ (github.event_name == 'workflow_dispatch' && inputs.all-versions) && '--all-versions' || '' }}
