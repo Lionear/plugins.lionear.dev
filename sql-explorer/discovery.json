@@ -3,8 +3,8 @@
   "stores": [
     {
       "id": "official",
-      "name": "SQL Explorer Plugin Store",
-      "description": "Official providers and tools for SQL Explorer",
+      "name": "DataTray Plugin Store",
+      "description": "Official providers and tools for DataTray",
       "publisher": "Lionear",
       "indexUrl": "https://plugins.lionear.dev/sql-explorer/index.json",
       "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/icon.png",

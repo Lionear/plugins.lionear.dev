@@ -7,7 +7,7 @@
       "name": "DragonflyDB",
       "description": "Connect to DragonflyDB (a RESP-compatible Redis drop-in) and browse DB indices and keys (grouped by ':' prefix), run typed commands (GET/HGETALL/SET/LPUSH/ZRANGE/...), and edit Hash fields via the grid. A non-SQL provider built on the v23 host API.",
       "author": "Lionear",
-      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/plugins/Providers.DragonflyDb",
+      "homepage": "https://github.com/Lionear/DataTray/tree/main/plugins/Providers.DragonflyDb",
       "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/dragonflydb.png",
       "capabilities": [],
       "versions": [
@@ -32,6 +32,14 @@
           "sha256": "e5691eb64501b3f78a21ac89cb7c8dfdaad44a767ecd9cd7dfec5c10e7e6ac30",
           "size": 581871,
           "notes": "Adds a one-click container recipe for spinning up a local DragonflyDB. Rebuilt against host API 27."
+        },
+        {
+          "version": "1.3.0",
+          "minHostApiVersion": 27,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/dragonflydb-v1.3.0/dragonflydb-1.3.0.zip",
+          "sha256": "29f764365ad5154616e173ec0e6ce28acc84cdbae7d8eb03f9bb4e38cd0231bc",
+          "size": 582339,
+          "notes": "Rebuilt for DataTray. The app and its plugin assemblies were renamed in 0.6.0, so every earlier version of this plugin fails to load on a current build \u2014 install this one."
         }
       ]
     },
@@ -41,7 +49,7 @@
       "name": "Elasticsearch",
       "description": "Connect to Elasticsearch and browse indices, run Kibana Dev-Tools-style requests (GET index/_search { ... }, _cat, _count, _bulk), and edit documents in a hybrid grid (scalar fields as columns, nested objects as JSON cells) with non-transactional _bulk writeback. Cursor-pages past the 10k window via point-in-time + search_after.",
       "author": "Lionear",
-      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/plugins/Providers.Elasticsearch",
+      "homepage": "https://github.com/Lionear/DataTray/tree/main/plugins/Providers.Elasticsearch",
       "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/elasticsearch.png",
       "capabilities": [],
       "versions": [
@@ -73,6 +81,14 @@
           "sha256": "81134e79f7fe843f3d2c3f6f82f8658fa40234af81c01bfd65b7e0698c2c33b1",
           "size": 4964468,
           "notes": "Adds a one-click container recipe for a local Elasticsearch. Rebuilt against host API 27."
+        },
+        {
+          "version": "1.4.0",
+          "minHostApiVersion": 27,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/elasticsearch-v1.4.0/elasticsearch-1.4.0.zip",
+          "sha256": "32d1efd3092ca238ca35832b073ac131c1cf0feed541b6be1a9a79b9029b9315",
+          "size": 4964956,
+          "notes": "Rebuilt for DataTray. The app and its plugin assemblies were renamed in 0.6.0, so every earlier version of this plugin fails to load on a current build \u2014 install this one."
         }
       ]
     },
@@ -82,7 +98,7 @@
       "name": "MongoDB",
       "description": "Connect to MongoDB and browse databases and collections, run find/aggregate queries with a JSON filter box, sort and page results, and drop or truncate collections. A non-SQL provider built on the v23 host API.",
       "author": "Lionear",
-      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/plugins/Providers.MongoDb",
+      "homepage": "https://github.com/Lionear/DataTray/tree/main/plugins/Providers.MongoDb",
       "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/mongodb.png",
       "capabilities": [],
       "versions": [
@@ -114,6 +130,14 @@
           "sha256": "86be2fc8b4d286b1dc9ae02d4feadf4b92d701b005349a8385ae06bcb120a260",
           "size": 2452621,
           "notes": "Adds a one-click container recipe for a local MongoDB. Rebuilt against host API 27."
+        },
+        {
+          "version": "1.3.0",
+          "minHostApiVersion": 27,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mongodb-v1.3.0/mongodb-1.3.0.zip",
+          "sha256": "93c5fba4ebf6dbcd36e48ec36bb27f35673452ea098517deee16035e1498c238",
+          "size": 2453285,
+          "notes": "Rebuilt for DataTray. The app and its plugin assemblies were renamed in 0.6.0, so every earlier version of this plugin fails to load on a current build \u2014 install this one."
         }
       ]
     },
@@ -123,7 +147,7 @@
       "name": "MySQL",
       "description": "Connect to MySQL/MariaDB: browse databases/tables/views/routines, run SQL with paging, alter/drop/create objects, and manage users. Built-in provider on the v23 host API.",
       "author": "Lionear",
-      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/src/SqlExplorer.Providers.MySql",
+      "homepage": "https://github.com/Lionear/DataTray/tree/main/src/DataTray.Providers.MySql",
       "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/mysql.png",
       "capabilities": [],
       "versions": [
@@ -148,6 +172,14 @@
           "sha256": "78723b341c623dc3e679db2920a1b16b124bb038fc30dc4757748ee3e72fa1cd",
           "size": 490936,
           "notes": "Adds a MySQL container recipe and per-dialect function autocompletion. Rebuilt against host API 27."
+        },
+        {
+          "version": "0.4.0",
+          "minHostApiVersion": 27,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mysql-v0.4.0/mysql-0.4.0.zip",
+          "sha256": "c4186f01633047fc5ad1b90f1722e0f2af831911b0374441ae4de212c6926fba",
+          "size": 491394,
+          "notes": "Rebuilt for DataTray. The app and its plugin assemblies were renamed in 0.6.0, so every earlier version of this plugin fails to load on a current build \u2014 install this one."
         }
       ]
     },
@@ -157,7 +189,7 @@
       "name": "PostgreSQL",
       "description": "Connect to PostgreSQL: browse databases/schemas/tables/views/routines/triggers, run SQL with paging, alter/drop/create objects, and manage users. Built-in provider on the v23 host API.",
       "author": "Lionear",
-      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/src/SqlExplorer.Providers.Postgres",
+      "homepage": "https://github.com/Lionear/DataTray/tree/main/src/DataTray.Providers.Postgres",
       "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/postgres.png",
       "capabilities": [],
       "versions": [
@@ -182,6 +214,14 @@
           "sha256": "8a176525aeea862c81ffdf1e0734555b3b188e1b8be2fdb09ba396b4a33e0276",
           "size": 665418,
           "notes": "Adds a PostgreSQL container recipe and per-dialect function autocompletion. Rebuilt against host API 27."
+        },
+        {
+          "version": "0.4.0",
+          "minHostApiVersion": 27,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/postgres-v0.4.0/postgres-0.4.0.zip",
+          "sha256": "4d93a1576eb2dc30db047da424856febcd281686a6e6a41d7fbfdb9668bb8a4a",
+          "size": 665880,
+          "notes": "Rebuilt for DataTray. The app and its plugin assemblies were renamed in 0.6.0, so every earlier version of this plugin fails to load on a current build \u2014 install this one."
         }
       ]
     },
@@ -191,14 +231,13 @@
       "name": "Redis",
       "description": "Connect to Redis and browse DB indices and keys (grouped by ':' prefix), run typed commands (GET/HGETALL/SET/LPUSH/ZRANGE/...), and edit Hash fields via the grid. A non-SQL provider built on the v23 host API.",
       "author": "Lionear",
-      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/plugins/Providers.Redis",
+      "homepage": "https://github.com/Lionear/DataTray/tree/main/plugins/Providers.Redis",
       "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/redis.png",
       "capabilities": [],
       "versions": [
         {
           "version": "1.0.0",
           "minHostApiVersion": 23,
-          "maxHostApiVersion": 23,
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/redis-v1.0.0/redis-1.0.0.zip",
           "sha256": "1c756518dcb3e899ecdbd8579d41012f252a09c7f7ff82a70ba5dc75ce25f97d",
           "size": 561427
@@ -217,6 +256,14 @@
           "sha256": "5b6b2bc837d975a31b607391ed7ab71c47bcea8a3a14ab77d41e2f556c7fa211",
           "size": 573495,
           "notes": "Adds a one-click container recipe for a local Redis. Rebuilt against host API 27."
+        },
+        {
+          "version": "1.3.0",
+          "minHostApiVersion": 27,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/redis-v1.3.0/redis-1.3.0.zip",
+          "sha256": "afbdd3599824e698ddc1f9141fe473bc424b09a5cf92f5510547f8cb0fe95eb0",
+          "size": 573959,
+          "notes": "Rebuilt for DataTray. The app and its plugin assemblies were renamed in 0.6.0, so every earlier version of this plugin fails to load on a current build \u2014 install this one."
         }
       ]
     },
@@ -248,12 +295,32 @@
       ]
     },
     {
+      "id": "datatray-mcp",
+      "type": "mcp",
+      "name": "DataTray MCP Server",
+      "description": "First-party MCP tool provider that exposes core query/browse tools over the Model Context Protocol so AI assistants (Claude, IDEs) can talk to your opted-in connections. Fail-closed opt-in per connection.",
+      "author": "Lionear",
+      "homepage": "https://github.com/Lionear/DataTray/tree/main/src/DataTray.Mcp.Server",
+      "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/datatray-mcp.png",
+      "capabilities": [],
+      "versions": [
+        {
+          "version": "0.2.0",
+          "minHostApiVersion": 2,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/datatray-mcp-v0.2.0/datatray-mcp-0.2.0.zip",
+          "sha256": "8e98df11b8e6aa263d5110947100c2bfa797abc818ff55bc69a7928cd1c7fbbe",
+          "size": 325487,
+          "notes": "Rebuilt for DataTray, and republished under the new plugin id `datatray-mcp`. Replaces `sql-explorer-mcp`, which no longer loads \u2014 uninstall that one."
+        }
+      ]
+    },
+    {
       "id": "sqlserver",
       "type": "provider",
       "name": "SQL Server",
       "description": "Connect to Microsoft SQL Server: browse databases/schemas/tables/views, run T-SQL with column-aware paging, alter/drop/create objects, manage server-level logins with a Route-B properties view, and run the schema-security users/roles UI. Built-in provider on the v23 host API.",
       "author": "Lionear",
-      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/src/SqlExplorer.Providers.MsSql",
+      "homepage": "https://github.com/Lionear/DataTray/tree/main/src/DataTray.Providers.MsSql",
       "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/sqlserver.png",
       "capabilities": [],
       "versions": [
@@ -300,6 +367,14 @@
           "sha256": "7ffe4e7079eb534e4509f3db3e9522d1692cc05c269e1698ccfa1f45e1fe70df",
           "size": 7192563,
           "notes": "Adds a SQL Server container recipe, per-dialect function autocompletion, and paged query results. Rebuilt against host API 27."
+        },
+        {
+          "version": "0.6.0",
+          "minHostApiVersion": 27,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/sqlserver-v0.6.0/sqlserver-0.6.0.zip",
+          "sha256": "22cdcbe306f04d72f7c9639e6a35f06605af1bac796beba23ec64ec673f92c88",
+          "size": 7197415,
+          "notes": "Rebuilt for DataTray. The app and its plugin assemblies were renamed in 0.6.0, so every earlier version of this plugin fails to load on a current build \u2014 install this one."
         }
       ]
     },
@@ -309,7 +384,7 @@
       "name": "SQL Server Admin Tools",
       "description": "SQL Server-specific admin dialogs (bacpac export, database create/attach helpers). Built-in tool plugin.",
       "author": "Lionear",
-      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/src/SqlExplorer.Tools.MsSqlAdmin",
+      "homepage": "https://github.com/Lionear/DataTray/tree/main/src/DataTray.Tools.MsSqlAdmin",
       "iconUrl": null,
       "capabilities": [],
       "versions": [
@@ -319,6 +394,14 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mssql-admin-v0.1.0/mssql-admin-0.1.0.zip",
           "sha256": "3aa8cbc91858cc9f692e4c8aabd0668802e04f568b5fcb70966e3a0d48506832",
           "size": 25479
+        },
+        {
+          "version": "0.2.0",
+          "minHostApiVersion": 2,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mssql-admin-v0.2.0/mssql-admin-0.2.0.zip",
+          "sha256": "24951a75441387cafae753fc8457afa85828b567138f07c3d765d516f1feb108",
+          "size": 25545,
+          "notes": "Rebuilt for DataTray. The app and its plugin assemblies were renamed in 0.6.0, so every earlier version of this plugin fails to load on a current build \u2014 install this one."
         }
       ]
     },
@@ -328,7 +411,7 @@
       "name": "SQLite",
       "description": "Connect to SQLite database files: browse tables/views/indexes/triggers, run SQL, alter/drop/create objects. Built-in provider on the v23 host API.",
       "author": "Lionear",
-      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/src/SqlExplorer.Providers.Sqlite",
+      "homepage": "https://github.com/Lionear/DataTray/tree/main/src/DataTray.Providers.Sqlite",
       "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/sqlite.png",
       "capabilities": [],
       "versions": [
@@ -353,6 +436,14 @@
           "sha256": "42538608fe77c86a1b88196efcf85c1ac71d29e463c3467d00d150ebadc14489",
           "size": 34452815,
           "notes": "Adds per-dialect function autocompletion. Rebuilt against host API 27."
+        },
+        {
+          "version": "0.4.0",
+          "minHostApiVersion": 27,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/sqlite-v0.4.0/sqlite-0.4.0.zip",
+          "sha256": "9122a10a8a6cd8d67b121d0855522c4526f188737254e581b5fa365c2b39f823",
+          "size": 34458261,
+          "notes": "Rebuilt for DataTray. The app and its plugin assemblies were renamed in 0.6.0, so every earlier version of this plugin fails to load on a current build \u2014 install this one."
         }
       ]
     },
@@ -362,17 +453,24 @@
       "name": "Universal Backup & Restore",
       "description": "Streaming, datatype-correct backup & restore for any connected database. Per-object schema/data selection, LOB-safe .lbak v3 format (GZip + AES-GCM), spools large objects to keep memory flat.",
       "author": "Lionear",
-      "homepage": "https://github.com/Lionear/SqlExplorer",
+      "homepage": "https://github.com/Lionear/DataTray/tree/main/plugins/Tools.UniversalBackup",
       "iconUrl": null,
       "capabilities": [],
       "versions": [
         {
           "version": "0.1.0",
           "minHostApiVersion": 2,
-          "maxHostApiVersion": 2,
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/universal-backup-v0.1.0/universal-backup-0.1.0.zip",
           "sha256": "2f61e14da3bb6fb469e8c85d90f84d54fc5aead1c52d217917e10ecc71f62db8",
           "size": 55743
+        },
+        {
+          "version": "0.2.0",
+          "minHostApiVersion": 2,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/universal-backup-v0.2.0/universal-backup-0.2.0.zip",
+          "sha256": "293512d4da3a945f49c2624a80d3eb989b012ba0dcf9a8088e190745676d1f9f",
+          "size": 75164,
+          "notes": "Rebuilt for DataTray. The app and its plugin assemblies were renamed in 0.6.0, so every earlier version of this plugin fails to load on a current build \u2014 install this one."
         }
       ]
     },
@@ -380,9 +478,9 @@
       "id": "mssql-bacpac",
       "type": "tool",
       "name": "SQL Server BACPAC/DACPAC",
-      "description": "Export & import SQL Server databases as BACPAC (schema + data) and DACPAC (schema-only) — Export, Import, Extract and Publish, powered by DacFx in-process.",
+      "description": "Export & import SQL Server databases as BACPAC (schema + data) and DACPAC (schema-only) \u2014 Export, Import, Extract and Publish, powered by DacFx in-process.",
       "author": "Lionear",
-      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/plugins/Tools.MsSqlBacpac",
+      "homepage": "https://github.com/Lionear/DataTray/tree/main/plugins/Tools.MsSqlBacpac",
       "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/mssql-bacpac.png",
       "capabilities": [],
       "versions": [
@@ -393,6 +491,14 @@
           "sha256": "ddbf07babc9f8e2b48dadccd9316bef066e2d74c3509aa0fbaa227a4e2921b29",
           "size": 8698781,
           "notes": "First release. Four Data-tier Application tools for SQL Server: Export/Import BACPAC and Extract/Publish DACPAC, powered by DacFx in-process."
+        },
+        {
+          "version": "0.2.0",
+          "minHostApiVersion": 2,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mssql-bacpac-v0.2.0/mssql-bacpac-0.2.0.zip",
+          "sha256": "af57409d2dbae1adae1ba09c24a6a690a7dfc4ec83d17e383391a964cde049eb",
+          "size": 16052630,
+          "notes": "Rebuilt for DataTray. The app and its plugin assemblies were renamed in 0.6.0, so every earlier version of this plugin fails to load on a current build \u2014 install this one."
         }
       ]
     },
@@ -400,9 +506,9 @@
       "id": "local-containers",
       "type": "extension",
       "name": "Local Containers (Docker)",
-      "description": "Spin up and manage local Docker database containers without leaving SQL Explorer — an engine-first create wizard, auto-added managed connections, and a live Containers panel with status, logs and Start/Stop/Remove.",
+      "description": "Spin up and manage local Docker database containers without leaving DataTray \u2014 an engine-first create wizard, auto-added managed connections, and a live Containers panel with status, logs and Start/Stop/Remove.",
       "author": "Lionear",
-      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/plugins/Backends.Docker",
+      "homepage": "https://github.com/Lionear/DataTray/tree/main/plugins/Backends.Docker",
       "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/local-containers.png",
       "capabilities": [
         "storage",
@@ -419,7 +525,7 @@
           "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/local-containers-v0.1.0/local-containers-0.1.0.zip",
           "sha256": "ae37480e023f59d7cddb77b204d2afc0958b72a11640f980261cdf149609cd98",
           "size": 56672,
-          "notes": "First release: create and manage local Docker database containers — auto-added managed connections, live status polling, logs, and lifecycle actions."
+          "notes": "First release: create and manage local Docker database containers \u2014 auto-added managed connections, live status polling, logs, and lifecycle actions."
         },
         {
           "version": "0.3.0",
@@ -428,6 +534,14 @@
           "sha256": "9081f224fe9ec21c2a75abb59644434dd47b5d56a2bca9429fe1b37d5990e1ba",
           "size": 53165,
           "notes": "Container engines are now provided by the database plugins themselves (provider-declared recipes), created containers get ownership labels, and the icon set is shared with the host. Requires host API 4."
+        },
+        {
+          "version": "0.4.0",
+          "minHostApiVersion": 4,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/local-containers-v0.4.0/local-containers-0.4.0.zip",
+          "sha256": "d98196ae9edb3bd5259697abe3581d187a804d93c6a326779d4e7ffe8505e4ed",
+          "size": 68519,
+          "notes": "Rebuilt for DataTray. The app and its plugin assemblies were renamed in 0.6.0, so every earlier version of this plugin fails to load on a current build \u2014 install this one."
         }
       ]
     },
@@ -435,9 +549,9 @@
       "id": "schema-diff",
       "type": "tool",
       "name": "Schema Diff",
-      "description": "Compare the schema of your open database against another connection and database, then generate a dialect-correct ALTER migration script that opens in a new query tab. Read-only — it never runs DDL itself. Built-in tool plugin.",
+      "description": "Compare the schema of your open database against another connection and database, then generate a dialect-correct ALTER migration script that opens in a new query tab. Read-only \u2014 it never runs DDL itself. Built-in tool plugin.",
       "author": "Lionear",
-      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/src/SqlExplorer.Tools.SchemaDiff",
+      "homepage": "https://github.com/Lionear/DataTray/tree/main/plugins/Tools.SchemaDiff",
       "iconUrl": null,
       "capabilities": [],
       "versions": [
@@ -456,6 +570,14 @@
           "sha256": "7a15526a4d05af64ff2618ff084ba3ed470563114ac2c88a45ed00cf77353d0c",
           "size": 40738,
           "notes": "Secondary indexes and SQLite support, plus fixes found by round-trip verification against live engines: auto-numbering survives a table recreate, engine-named constraints no longer diff as drop-and-recreate, and varchar(max) is no longer read as varchar(1)."
+        },
+        {
+          "version": "0.4.0",
+          "minHostApiVersion": 4,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/schema-diff-v0.4.0/schema-diff-0.4.0.zip",
+          "sha256": "2a68a24b391eea137988b260f1980f9912b0c5065cb4cc9a6d2e172ac6423742",
+          "size": 54094,
+          "notes": "Rebuilt for DataTray. The app and its plugin assemblies were renamed in 0.6.0, so every earlier version of this plugin fails to load on a current build \u2014 install this one."
         }
       ]
     },
@@ -465,7 +587,7 @@
       "name": "Copy Table",
       "description": "Copy a table to another connection and database: structure + data, structure only or data only, all rows or the first N, optionally keeping identity/sequence values and bringing the table's indexes and foreign keys along. Run the copy with a live checklist, or open it as a script on the target to review the SQL first. Postgres, MySQL, SQL Server and SQLite, with source and target on the same engine.",
       "author": "Lionear",
-      "homepage": "https://github.com/Lionear/SqlExplorer/tree/main/plugins/Tools.CopyTable",
+      "homepage": "https://github.com/Lionear/DataTray/tree/main/plugins/Tools.CopyTable",
       "iconUrl": null,
       "capabilities": [],
       "versions": [
@@ -476,6 +598,14 @@
           "sha256": "964216d40fe3cdb3367068c8ca1a5bb8f8f79a107f767059d5ea1d52e6298da2",
           "size": 58051,
           "notes": "First release: copy a table to another connection and database, run or as a script, with indexes and foreign keys optional."
+        },
+        {
+          "version": "0.3.0",
+          "minHostApiVersion": 5,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/copy-table-v0.3.0/copy-table-0.3.0.zip",
+          "sha256": "bd575f06a9f14b26bf452d5627b107d3b19b94b149163f2ac8bc0a28d09a6300",
+          "size": 75461,
+          "notes": "Rebuilt for DataTray. The app and its plugin assemblies were renamed in 0.6.0, so every earlier version of this plugin fails to load on a current build \u2014 install this one."
         }
       ]
     },
@@ -503,7 +633,7 @@
       "id": "duckdb",
       "type": "provider",
       "name": "DuckDB",
-      "description": "Open a DuckDB file — or an in-memory scratchpad — and browse schemas, tables, views, sequences, columns and indexes with row and column counts. Query files directly the way DuckDB is meant to be used: SELECT * FROM 'events.parquet', read_csv_auto('data.csv'), read_json_auto(...), with no database file needed at all. Scripts, EXPLAIN, View Definition and DDL Create for schemas and tables included. A plain table browse stays editable when the table has a primary key; a join, aggregate, view or file comes back read-only. Bundles the DuckDB engine, so the download is large.",
+      "description": "Open a DuckDB file \u2014 or an in-memory scratchpad \u2014 and browse schemas, tables, views, sequences, columns and indexes with row and column counts. Query files directly the way DuckDB is meant to be used: SELECT * FROM 'events.parquet', read_csv_auto('data.csv'), read_json_auto(...), with no database file needed at all. Scripts, EXPLAIN, View Definition and DDL Create for schemas and tables included. A plain table browse stays editable when the table has a primary key; a join, aggregate, view or file comes back read-only. Bundles the DuckDB engine, so the download is large.",
       "author": "Lionear",
       "homepage": "https://github.com/Lionear/DataTray/tree/main/plugins/Providers.DuckDb",
       "iconUrl": "https://plugins.lionear.dev/sql-explorer/assets/duckdb.png",

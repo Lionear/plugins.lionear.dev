@@ -1,7 +1,7 @@
-# SQL Explorer Plugins
+# DataTray Plugins
 
 Hosts the plugin Discovery feed and the official plugin store index for
-[Lionear SQL Explorer](https://github.com/Lionear/SqlExplorer).
+[DataTray](https://github.com/Lionear/DataTray).
 
 Served at `https://plugins.lionear.dev/` via GitHub Pages + a custom domain
 (this repo's `CNAME` file). The app has this Discovery URL hardcoded
