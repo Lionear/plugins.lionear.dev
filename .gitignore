@@ -1,0 +1,4 @@
+# Packaging artefacts. A plugin zip is built here, uploaded as a release asset, and then has no
+# reason to stay: the release is the copy of record and index.json points at it by URL and sha256.
+# Three of them sat untracked in this root for a fortnight before anyone noticed.
+*.zip
