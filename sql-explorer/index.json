@@ -78,6 +78,14 @@
           "sha256": "c4186f01633047fc5ad1b90f1722e0f2af831911b0374441ae4de212c6926fba",
           "size": 491394,
           "notes": "Rebuilt for DataTray. The app and its plugin assemblies were renamed in 0.6.0, so every earlier version of this plugin fails to load on a current build \u2014 install this one."
+        },
+        {
+          "version": "0.5.0",
+          "minHostApiVersion": 28,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/mysql-v0.5.0/mysql-0.5.0.zip",
+          "sha256": "94c755f98d2997d816ad98b8f1bfa021dc8828e2fea8ce05f37ac5351d193c55",
+          "size": 491370,
+          "notes": "Adds the Activity Monitor's Database and \"Blocking only\" filters. Needs a host with ProviderHostApi 28; on an older host the store keeps offering the previous version."
         }
       ]
     },
@@ -98,6 +106,14 @@
           "sha256": "4d93a1576eb2dc30db047da424856febcd281686a6e6a41d7fbfdb9668bb8a4a",
           "size": 665880,
           "notes": "Rebuilt for DataTray. The app and its plugin assemblies were renamed in 0.6.0, so every earlier version of this plugin fails to load on a current build \u2014 install this one."
+        },
+        {
+          "version": "0.5.0",
+          "minHostApiVersion": 28,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/postgres-v0.5.0/postgres-0.5.0.zip",
+          "sha256": "b45f133acefd14849d062fafdc8a68012ac6510f6b096aa5192937b8780eda14",
+          "size": 665871,
+          "notes": "Adds the Activity Monitor's Database and \"Blocking only\" filters. Needs a host with ProviderHostApi 28; on an older host the store keeps offering the previous version."
         }
       ]
     },
@@ -158,6 +174,14 @@
           "sha256": "22cdcbe306f04d72f7c9639e6a35f06605af1bac796beba23ec64ec673f92c88",
           "size": 7197415,
           "notes": "Rebuilt for DataTray. The app and its plugin assemblies were renamed in 0.6.0, so every earlier version of this plugin fails to load on a current build \u2014 install this one."
+        },
+        {
+          "version": "0.7.0",
+          "minHostApiVersion": 28,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/sqlserver-v0.7.0/sqlserver-0.7.0.zip",
+          "sha256": "0b3b308f7d0311c4a38597d0ab8db06ff28c77db39fc9c1eedf3e4e7dcbaa619",
+          "size": 7197454,
+          "notes": "Adds the Activity Monitor's Database and \"Blocking only\" filters. Needs a host with ProviderHostApi 28; on an older host the store keeps offering the previous version."
         }
       ]
     },
