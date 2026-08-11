@@ -279,7 +279,9 @@
         "panel",
         "process",
         "menu",
-        "background"
+        "background",
+        "services",
+        "providers"
       ],
       "versions": [
         {
@@ -289,6 +291,14 @@
           "sha256": "d98196ae9edb3bd5259697abe3581d187a804d93c6a326779d4e7ffe8505e4ed",
           "size": 68519,
           "notes": "Rebuilt for DataTray. The app and its plugin assemblies were renamed in 0.6.0, so every earlier version of this plugin fails to load on a current build \u2014 install this one."
+        },
+        {
+          "version": "0.4.1",
+          "minHostApiVersion": 4,
+          "downloadUrl": "https://github.com/Lionear/plugins.lionear.dev/releases/download/local-containers-v0.4.1/local-containers-0.4.1.zip",
+          "sha256": "acef0fea5db083a1ae1a7f600e7bf96e6ec453c5bebd86c4772d47c5f420d3d9",
+          "size": 69308,
+          "notes": "Finds Docker on macOS. Started from Finder or the Dock, DataTray searched only the directories macOS hands a windowed app \u2014 none of which is where Docker Desktop installs \u2014 and reported Docker as missing while it was running fine."
         }
       ]
     },
